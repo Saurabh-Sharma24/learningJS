@@ -80,3 +80,6 @@ Understanding these differences helps in writing clear and meaningful code. If y
 const a1 = Symbol('123') // symbol uniquely assign a value to a variable
 const a2 = Symbol("123") // the decription given to symbol  is same but still it produces two diffrerent unique symbol for both a1 and a2
 console.log(a1 === a2) // false
+
+// bigint
+let bigInteger = 12342355643n; // use n at the end
