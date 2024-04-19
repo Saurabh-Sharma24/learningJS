@@ -32,6 +32,7 @@ console.log(`x: ${x} y: ${y}`)
 // comparison with strings
 console.log('2'> 1 ) // true because string value is converted to number and then compared 
 console.log('23a'> 2) // comparison with NaN always returns false 
+console.log(undefined > 2) // comparison with undefined always returns false 
 
 // null and comparison
 
