@@ -17,4 +17,14 @@ console.log(typeof String(score))
 // true = 1 and strings, any other number except 0 
 // and false = 0 and empty string
 // " "=> false
-// "saurabh" => true
+// "saurabh" => true 
+
+// postfix increment
+let a =2;
+let b = a++; // first b = a and then a = a + 1 (a++)
+console.log(`a: ${a} b: ${b}`)
+
+// prefix increment
+let x =2;
+let y = ++x; // first y = x + 1 and then x = x+1
+console.log(`x: ${x} y: ${y}`)
