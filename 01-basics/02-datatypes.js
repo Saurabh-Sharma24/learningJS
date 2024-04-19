@@ -28,3 +28,13 @@ console.log(`a: ${a} b: ${b}`)
 let x =2;
 let y = ++x; // first y = x + 1 and then x = x+1
 console.log(`x: ${x} y: ${y}`)
+
+// comparison with strings
+console.log('2'> 1 ) // true because string value is converted to number and then compared 
+console.log('23a'> 2) // comparison with NaN always returns false 
+
+// null and comparison
+
+console.log(null == 0) // false because null=> object and 0=> number
+console.log(null>0) // results false as comparison operator changes null to 0 and 0 can not be greater than 0
+console.log(null === 0) // false as it checks both type and value and their type is not equal hence its false  
