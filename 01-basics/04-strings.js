@@ -1,1 +1,1 @@
-// go through string all methods 
+// go through string most used methods 
