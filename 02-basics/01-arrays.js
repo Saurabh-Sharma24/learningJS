@@ -17,4 +17,29 @@ console.log(myArray); // modified array after push call
 console.log(myArray.unshift(1,3)) // unshift call adds given values at the beginning of array and returns modified array length
 console.log(myArray) // modified array after unshift call
 console.log(myArray.shift()) // removes first element from array and return it and modified the array
-console.log(myArray) // modified array after shift call
+console.log(myArray) // modified array after shift 
+
+const marvelHeroes = ['spiderman', "thor", "ironman", "captain america"]
+const dcHeroes = ["superman","aquaman","batman","flash"]
+
+const mixHeroes = marvelHeroes.concat(dcHeroes) // merging two arrays using concat method 
+console.log(mixHeroes) // merged array
+
+const allHeroes = [...marvelHeroes,...dcHeroes] // ... spread operator works on iterable (strings and arrays) and returns their individual element
+console.log(allHeroes)
+
+const mixArray = [1,2,3,[4,5],6,[7,8,9,[10,11]]] // nested array
+const flatArray = mixArray.flat(Infinity) // returns all nested or without nested elementb into a single array, flat method parameter defines depth to which array should be flatted
+console.log(flatArray); //output=> [1,2,3,4,5,6,7,8,9,10,11]
+
+
+console.log(Array.isArray('Saurabh'))// checks whether a given value is an array
+console.log(Array.isArray(mixArray))// true
+
+console.log(Array.from('Saurabh')) // returns an array from only one specified value
+
+const value1 = 12;
+const value2 = 13;
+const value3 = 14;
+
+console.log(Array.of(value1,value2,value3)) // returns an array of multiple specified values
