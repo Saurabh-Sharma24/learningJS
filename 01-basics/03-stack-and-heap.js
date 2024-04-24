@@ -10,4 +10,4 @@ let userOne = {
     age: 24,
 }
 
-let userTwo = userOne // userTwo will get the reference of value of userOne
+let userTwo = userOne // userTwo will get the reference value of userOne
