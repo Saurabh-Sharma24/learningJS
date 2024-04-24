@@ -93,3 +93,13 @@ console.log(Object.keys(object1)) // returns an array of object with their keys 
 console.log(Object.values(object1)) // returns an array of values of keys
 console.log(object1.hasOwnProperty('name')) // checking if an object has property or not
 console.log(Object.entries(object1)) // returns array of each individual key and value pairs
+
+// objects destructuring => just a syntacticall sugar
+
+const course = {
+    courseName: 'Javascript in-depth',
+    courseFee: 1234,
+}
+
+const {courseName: name} = course //object destructuring 
+console.log(name)  
