@@ -9,10 +9,10 @@ const object1 = {
     "email address": "saurabh@google.com",
     [mySym] : "SDE in Google" // symbol key declared with []
 }
-object1.salary = Number(200000).toLocaleString(); // adding new key into objects 1 with its corresponding value
+object1.salary = Number(200000).toLocaleString(); // adding new key into objects1 with its corresponding value
 console.log(object1)
 console.log(object1.name)
-// console.log(object1.email address) // cant access key with spcaed string value with dot notation
+// console.log(object1.email address) // cant access key with spaced string value with dot notation
 console.log(object1["email address"]); // can be accessed
 console.log(object1[mySym]) // symbol key in object can only be accessed via [] not with dot notation
 
