@@ -2,7 +2,7 @@ const day = 1;
 
 switch(day){
     case 1:
-        console.log("Monday")
+        console.log("Monday") 
         break;
     case 2:
         console.log("Tuesday")
@@ -18,10 +18,10 @@ switch(day){
         break
     case 6:
         console.log("Saturday")
-        break
+        // break 
     case 7:
         console.log("Sunday")
-        break
+        // break
     default:
         console.log("Invalid day")
         break
