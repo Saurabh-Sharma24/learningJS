@@ -8,3 +8,6 @@ if(user){
 }else{
     console.log("doesn't")
 }
+
+
+// nullish coalescing operator (??): null, undefined
