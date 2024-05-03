@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style = "background-color: black; color: orange" >
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+    </div>
+
+</body>
+    <script>
+        const parent = document.querySelector('.parent')
+        // console.log(parent) // returns HTML collection of parent class div
+        // console.log(parent.children) // .children returns inner elements of parent(here parent class named div) 
+        // console.log(parent.children[1].innerText);
+        
+        // for (let i = 0; i<parent.children.length; i++){
+        //     console.log(parent.children[i].innerText)
+        // }
+
+        parent.children[2].style.color = 'white'
+        // accessing children elements from parents
+        console.log(parent.firstElementChild) // returns the first element of parent (here parent div)
+        console.log(parent.lastElementChild) // returns last element of parent (here parent div)
+        
+        // accessing parents from child
+        const dayChildrenElement = document.querySelector('.day') // queryselector returns first occurence of day class (here monday) whereas querySelectorAll returns all elements of day class
+        console.log(dayChildrenElement.parentElement); // returns parent of dayChildrenElement
+        console.log(dayChildrenElement.nextElementSibling) // next next element to specified element
+        console.log(parent.childNodes) // .childNodes returns children of parent and in this line break are also included (output: 9) since 5 linebreaks and 4 day class div  
+    </script>
+</html>
