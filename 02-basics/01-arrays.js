@@ -43,3 +43,6 @@ const value2 = 13;
 const value3 = 14;
 
 console.log(Array.of(value1,value2,value3)) // returns an array of multiple specified values
+
+const n = 'a'
+console.log(isNaN(n))
