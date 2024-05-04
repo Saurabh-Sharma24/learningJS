@@ -12,18 +12,27 @@
 </body>
 <script>
     // creating new value
+
     const li = document.createElement('li')
     li.appendChild(document.createTextNode('Javascript'))
     document.querySelector('.language').appendChild(li)
     document.querySelector('body').style.backgroundColor = '#212121'
     document.querySelector('body').style.color = '#fff'
+    
+    
     // editing previous value
+
     const firstLang = document.querySelector('li:nth-child(1)')
     // firstLang.document.createTextNode('React')
     const newLi = document.createElement('li')
     newLi.textContent = 'React';
     firstLang.replaceWith(newLi) // replacing firstLang with newLi item
-    // document.querySelector('.language').appendChild(firstLang)
+    // document.querySelector('.language').appendChild(firstLang) // it will create new li inside ul
 
+
+    // removing existing element
+
+    const firstItem = document.querySelector('li:first-child')
+    firstItem.remove()
 </script>
 </html>
