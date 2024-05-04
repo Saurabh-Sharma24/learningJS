@@ -11,6 +11,15 @@
 </body>
 
 <script>
-    
+    const div = document.createElement('div') // creating div
+    div.style.color = 'orange'; 
+    // div.innerText = "Saurabh"; // inserting text into div
+    const newText = document.createTextNode('Hello, Saurabh') // optimized way of creating text than innerText
+    div.appendChild(newText) // adding newText to div
+    document.body.appendChild(div) // appending div to body
+    div.className = 'main'; // Adding class name
+    div.id = 'new-ID' // adding new id
+    div.setAttribute('title', 'new-title')
+
 </script>
 </html>
