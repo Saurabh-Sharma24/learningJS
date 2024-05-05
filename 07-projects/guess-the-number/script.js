@@ -4,7 +4,7 @@ const userInput = document.querySelector('#guessField');
 const submitButton = document.querySelector('#subt');
 
 const pastGuesses = document.querySelector('.guesses');
-const remainingGuesses = document.querySelector('lastResult');
+const remainingGuesses = document.querySelector('.lastResult');
 
 const showMessage = document.querySelector('.lowOrHi');
 
