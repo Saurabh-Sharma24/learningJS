@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding: 0;
-    color: 00203F;
+    color: #00203F;
     font-family: Aladin;
 }
 .bg{
@@ -10,6 +10,7 @@
     background-color: #ADEFD1;
     position: relative;
     margin: 100px auto;
+    color: #00203F;
 }
 h1{
     font-size: 64px;
@@ -33,11 +34,14 @@ form{
 #user-input{
     text-align: center;
     font-size: 64px;
-    border: 1px dotted;
+    border: 1px dotted #00203F;
     padding: 10px 30px;
     background-color: transparent;
     width: 250px;
     height: 80px;
+}
+#user-input:focus{
+    outline: none;
 }
 
 #message{
