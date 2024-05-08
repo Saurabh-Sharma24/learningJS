@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    color: 00203F;
     font-family: Aladin;
 }
 .bg{
@@ -8,25 +9,44 @@
     height: 770px;
     background-color: #ADEFD1;
     position: relative;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 h1{
     font-size: 64px;
     text-align: center;
     padding-top: 20%;
+    padding-bottom: 2%;
 
 }
 #number-range{
     font-size: 38px;
     text-align: center;
-    padding: 5px auto;
+    margin: 20px auto;
+    padding: 10px auto;
+}
+
+form{
+    text-align: center;
+    padding: 20px 0;
 }
 
 #user-input{
-    font-size: 38px;
-
+    text-align: center;
+    font-size: 64px;
+    border: 1px dotted;
     padding: 10px 30px;
     background-color: transparent;
-    width: 387px;
-    height: 115px;
+    width: 250px;
+    height: 80px;
+}
+
+#message{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 40px;
+}
+#left-guesses{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 50px;
 }
