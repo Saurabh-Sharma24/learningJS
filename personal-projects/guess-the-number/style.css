@@ -8,9 +8,25 @@
     height: 770px;
     background-color: #ADEFD1;
     position: relative;
+    margin: 0 auto;
 }
 h1{
+    font-size: 64px;
     text-align: center;
-    padding: 300px 335px;
+    padding-top: 20%;
 
+}
+#number-range{
+    font-size: 38px;
+    text-align: center;
+    padding: 5px auto;
+}
+
+#user-input{
+    font-size: 38px;
+
+    padding: 10px 30px;
+    background-color: transparent;
+    width: 387px;
+    height: 115px;
 }
