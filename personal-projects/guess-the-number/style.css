@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Aladin;
+}
+.bg{
+    width: 600px;
+    height: 770px;
+    background-color: #ADEFD1;
+    position: relative;
+}
+h1{
+    text-align: center;
+    padding: 300px 335px;
+
+}
